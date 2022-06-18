@@ -1,0 +1,7 @@
+.table__cell {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+  flex-grow: 1;
+}

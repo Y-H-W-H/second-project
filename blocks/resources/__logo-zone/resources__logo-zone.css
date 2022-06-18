@@ -1,0 +1,15 @@
+/* Не понимаю, почему не делается требуемый в брифе верхний отступ в 80пикселей */
+.resources__logo-zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+
+  margin: 80px auto 0;
+  width: 1100px;
+  flex-wrap: wrap;
+  list-style: none;
+
+}
+
+/* Почему-то пропадают размеры, если я действую через div, а не img, и ссылки на ресурсы не видны */

@@ -1,0 +1,12 @@
+.resources__link {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.resources__link:hover .resources__logo {
+    opacity: 70%;
+    transition: opacity ease-out;
+
+}
